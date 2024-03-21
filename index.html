@@ -17,28 +17,61 @@
         <div class="section-hero-wrapper flex">
             <div class="sect-hero-left-part">
                 <div class="small-yellow-ball">
-
+                    <img src="images/Group.svg" alt="" class="yellow-ball-header">
                 </div>
                 <h2>
                     Reach out to us!
                 </h2>
                 <form class="form flex">
-                    <input type="text" class="input" placeholder="Your name*">
-                    <input type="email" class="input" placeholder="Your e-mail*">
+                    <input type="text" class="input" placeholder="Your name*" pattern="^[a-zA-Z]+\s[a-zA-Z]+$" title="Danil Malyk">
+                    <input type="email" class="input" placeholder="Your e-mail*" title="danilmalyk20@gmail.com" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
                     <textarea required cols="50" rows="10" name="textarea"
                         placeholder="Your message*"> </textarea>
                     <button class="btn" type="submit">Send message</button>
                 </form>
             </div>
             <div class="images">
-                <img class="lemon-ball" src="" alt="">
+                <img class="lemon-ball" src="images/Ellipse.svg" alt="">
                 <img  class="map" src="images/earth.jpeg" alt="">
-                <div class="yellow-ball"></div>
-                <div class="pink-ball"></div>
+                <div class="yellow-ball">
+                    <img src="images/goodie1.svg" alt="">
+                </div>
+                <div class="pink-ball">
+                    <img src="images/ball-pink.svg" alt="" class="ball-pink">
+                </div>
             </div>
         </div>
     </div>
 </section>
+<footer class="footer">
+    <div class="pink-ball">
+        <img src="images/ball-pink.svg" alt="" class="images-pink-ball">
+    </div>
+    <div>
+        <ul class="list-item flex">
+            <li class="item_list-icon">
+                <svg class="icon-svg">
+                    <use href="symbol-defs.svg#icon-linkedin2"></use>
+                </svg>
+            </li>
+            <li class="item_list-icon">
+                <svg class="icon-svg">
+                    <use href="symbol-defs.svg#icon-twitter"></use>
+                </svg>
+            </li>
+            <li class="item_list-icon">
+                <svg class="icon-svg">
+                    <use href="symbol-defs.svg#icon-facebook"></use>
+                </svg>
+            </li>
+            <li class="item_list-icon">
+                <svg class="icon-svg">
+                    <use href="symbol-defs.svg#icon-pinterest"></use>
+                </svg>
+            </li>
+        </ul>
+    </div>
+</footer>
 </body>
 
 </html>

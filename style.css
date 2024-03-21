@@ -17,7 +17,7 @@ a{
   color: inherit;
 }
 .container{ 
-  outline: 2px solid red;
+  outline: 2px solid black;
   width: 1440px;
   margin: 0 auto;
 }
@@ -55,7 +55,7 @@ a{
   right: -297px;
   border-radius: 50%;
   width: 976px;
-  height: 976px;
+  height: 900px;
   box-shadow: inset 0px 16px 42px 0px rgba(0, 0, 0, 0.1);
   background: linear-gradient(149.57deg, rgb(255, 145, 203) 9.612%,rgb(244, 114, 183) 78.528%);
 }
@@ -178,7 +178,7 @@ h2{
   background-size: cover;
   top: 472px;
   right: 586px;
-  z-index: 99293210302131893821381;
+  z-index: 1;
 }
 .pink-ball{ 
   width: 214px;
@@ -189,4 +189,28 @@ h2{
   background-size: contain;
   top: 541px;
   right: 486px;
+}
+.yellow-ball-header{
+  margin-left: -170px;
+  margin-top: -25px;
+}
+.ball-pink{
+  margin-top: -35px;
+}
+.footer{
+  margin-top: 17px;
+  outline: 1px solid #D8D8D8;
+}
+.pink-ball{
+  /* position: absolute;
+  left: 3px;
+  right: 4px; */
+}
+.images-pink-ball{
+  position: absolute;
+  left: -800px;
+  bottom: -400px;
+}
+.icon-svg{
+  fill: #696969;
 }
